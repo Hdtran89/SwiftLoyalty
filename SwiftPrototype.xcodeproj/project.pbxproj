@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E311C15E1A42682B004F1CBA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E311C15D1A42682B004F1CBA /* AVFoundation.framework */; };
+		E3224AB11A1C142A00669694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224AB01A1C142A00669694 /* AppDelegate.swift */; };
+		E3224AB41A1C142A00669694 /* SwiftPrototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3224AB21A1C142A00669694 /* SwiftPrototype.xcdatamodeld */; };
+		E3224AB91A1C142A00669694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3224AB71A1C142A00669694 /* Main.storyboard */; };
+		E3224ABB1A1C142A00669694 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3224ABA1A1C142A00669694 /* Images.xcassets */; };
+		E3224ABE1A1C142A00669694 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3224ABC1A1C142A00669694 /* LaunchScreen.xib */; };
+		E3224ACA1A1C142A00669694 /* SwiftPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224AC91A1C142A00669694 /* SwiftPrototypeTests.swift */; };
+		E33F9CD61A84B68A008BB16C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CD51A84B68A008BB16C /* Card.swift */; };
+		E33F9D061A84B800008BB16C /* JapanPostBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CDA1A84B800008BB16C /* JapanPostBarcode.m */; };
+		E33F9D071A84B800008BB16C /* NKDAbstractUPCEANBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CDC1A84B800008BB16C /* NKDAbstractUPCEANBarcode.m */; };
+		E33F9D081A84B800008BB16C /* NKDBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CDE1A84B800008BB16C /* NKDBarcode.m */; };
+		E33F9D091A84B800008BB16C /* NKDBarcodeOffscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE11A84B800008BB16C /* NKDBarcodeOffscreenView.m */; };
+		E33F9D0A1A84B800008BB16C /* NKDCodabarBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE31A84B800008BB16C /* NKDCodabarBarcode.m */; };
+		E33F9D0B1A84B800008BB16C /* NKDCode39Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE51A84B800008BB16C /* NKDCode39Barcode.m */; };
+		E33F9D0C1A84B800008BB16C /* NKDCode128Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE71A84B800008BB16C /* NKDCode128Barcode.m */; };
+		E33F9D0D1A84B800008BB16C /* NKDEAN8Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE91A84B800008BB16C /* NKDEAN8Barcode.m */; };
+		E33F9D0E1A84B800008BB16C /* NKDEAN13Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CEB1A84B800008BB16C /* NKDEAN13Barcode.m */; };
+		E33F9D0F1A84B800008BB16C /* NKDExtendedCode39Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CED1A84B800008BB16C /* NKDExtendedCode39Barcode.m */; };
+		E33F9D101A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CEF1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m */; };
+		E33F9D111A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF11A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m */; };
+		E33F9D121A84B800008BB16C /* NKDModifiedPlesseyBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF31A84B800008BB16C /* NKDModifiedPlesseyBarcode.m */; };
+		E33F9D131A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF51A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m */; };
+		E33F9D141A84B800008BB16C /* NKDPlanetBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF71A84B800008BB16C /* NKDPlanetBarcode.m */; };
+		E33F9D151A84B800008BB16C /* NKDPostnetBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF91A84B800008BB16C /* NKDPostnetBarcode.m */; };
+		E33F9D161A84B800008BB16C /* NKDRoyalMailBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CFB1A84B800008BB16C /* NKDRoyalMailBarcode.m */; };
+		E33F9D171A84B800008BB16C /* NKDUPCABarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CFD1A84B800008BB16C /* NKDUPCABarcode.m */; };
+		E33F9D181A84B800008BB16C /* NKDUPCEBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CFF1A84B800008BB16C /* NKDUPCEBarcode.m */; };
+		E33F9D191A84B800008BB16C /* NSString-UPCEAN.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9D011A84B800008BB16C /* NSString-UPCEAN.m */; };
+		E33F9D1A1A84B800008BB16C /* UIImage-NKDBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9D031A84B800008BB16C /* UIImage-NKDBarcode.m */; };
+		E33F9D1B1A84B800008BB16C /* UIImage-Normalize.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9D051A84B800008BB16C /* UIImage-Normalize.m */; };
+		E3C4F0F71A3FCFDF00B1F996 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C4F0F61A3FCFDF00B1F996 /* Scan.swift */; };
+		E3DF50D71A49503200132C9E /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF50D61A49503200132C9E /* Main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3224AC41A1C142A00669694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3224AA31A1C142A00669694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3224AAA1A1C142A00669694;
+			remoteInfo = SwiftPrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E311C15D1A42682B004F1CBA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E3224AAB1A1C142A00669694 /* SwiftPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3224AAF1A1C142A00669694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3224AB01A1C142A00669694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3224AB31A1C142A00669694 /* SwiftPrototype.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftPrototype.xcdatamodel; sourceTree = "<group>"; };
+		E3224AB81A1C142A00669694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3224ABA1A1C142A00669694 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E3224ABD1A1C142A00669694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E3224AC31A1C142A00669694 /* SwiftPrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3224AC81A1C142A00669694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3224AC91A1C142A00669694 /* SwiftPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPrototypeTests.swift; sourceTree = "<group>"; };
+		E33F9CD51A84B68A008BB16C /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		E33F9CD71A84B7FF008BB16C /* SwiftPrototype-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPrototype-Bridging-Header.h"; sourceTree = "<group>"; };
+		E33F9CD81A84B800008BB16C /* CocoaTouchBarcodes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaTouchBarcodes_Prefix.pch; path = ../../Documents/iphone_program/UnknownPrototype/CocoaTouchBarcodes_Prefix.pch; sourceTree = "<group>"; };
+		E33F9CD91A84B800008BB16C /* JapanPostBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JapanPostBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/JapanPostBarcode.h; sourceTree = "<group>"; };
+		E33F9CDA1A84B800008BB16C /* JapanPostBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JapanPostBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/JapanPostBarcode.m; sourceTree = "<group>"; };
+		E33F9CDB1A84B800008BB16C /* NKDAbstractUPCEANBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDAbstractUPCEANBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDAbstractUPCEANBarcode.h; sourceTree = "<group>"; };
+		E33F9CDC1A84B800008BB16C /* NKDAbstractUPCEANBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDAbstractUPCEANBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDAbstractUPCEANBarcode.m; sourceTree = "<group>"; };
+		E33F9CDD1A84B800008BB16C /* NKDBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcode.h; sourceTree = "<group>"; };
+		E33F9CDE1A84B800008BB16C /* NKDBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcode.m; sourceTree = "<group>"; };
+		E33F9CDF1A84B800008BB16C /* NKDBarcodeFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDBarcodeFramework.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcodeFramework.h; sourceTree = "<group>"; };
+		E33F9CE01A84B800008BB16C /* NKDBarcodeOffscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDBarcodeOffscreenView.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcodeOffscreenView.h; sourceTree = "<group>"; };
+		E33F9CE11A84B800008BB16C /* NKDBarcodeOffscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDBarcodeOffscreenView.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcodeOffscreenView.m; sourceTree = "<group>"; };
+		E33F9CE21A84B800008BB16C /* NKDCodabarBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDCodabarBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDCodabarBarcode.h; sourceTree = "<group>"; };
+		E33F9CE31A84B800008BB16C /* NKDCodabarBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDCodabarBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDCodabarBarcode.m; sourceTree = "<group>"; };
+		E33F9CE41A84B800008BB16C /* NKDCode39Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDCode39Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDCode39Barcode.h; sourceTree = "<group>"; };
+		E33F9CE51A84B800008BB16C /* NKDCode39Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDCode39Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDCode39Barcode.m; sourceTree = "<group>"; };
+		E33F9CE61A84B800008BB16C /* NKDCode128Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDCode128Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDCode128Barcode.h; sourceTree = "<group>"; };
+		E33F9CE71A84B800008BB16C /* NKDCode128Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDCode128Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDCode128Barcode.m; sourceTree = "<group>"; };
+		E33F9CE81A84B800008BB16C /* NKDEAN8Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDEAN8Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDEAN8Barcode.h; sourceTree = "<group>"; };
+		E33F9CE91A84B800008BB16C /* NKDEAN8Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDEAN8Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDEAN8Barcode.m; sourceTree = "<group>"; };
+		E33F9CEA1A84B800008BB16C /* NKDEAN13Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDEAN13Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDEAN13Barcode.h; sourceTree = "<group>"; };
+		E33F9CEB1A84B800008BB16C /* NKDEAN13Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDEAN13Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDEAN13Barcode.m; sourceTree = "<group>"; };
+		E33F9CEC1A84B800008BB16C /* NKDExtendedCode39Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDExtendedCode39Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDExtendedCode39Barcode.h; sourceTree = "<group>"; };
+		E33F9CED1A84B800008BB16C /* NKDExtendedCode39Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDExtendedCode39Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDExtendedCode39Barcode.m; sourceTree = "<group>"; };
+		E33F9CEE1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDIndustrialTwoOfFiveBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDIndustrialTwoOfFiveBarcode.h; sourceTree = "<group>"; };
+		E33F9CEF1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDIndustrialTwoOfFiveBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDIndustrialTwoOfFiveBarcode.m; sourceTree = "<group>"; };
+		E33F9CF01A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDInterleavedTwoOfFiveBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDInterleavedTwoOfFiveBarcode.h; sourceTree = "<group>"; };
+		E33F9CF11A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDInterleavedTwoOfFiveBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDInterleavedTwoOfFiveBarcode.m; sourceTree = "<group>"; };
+		E33F9CF21A84B800008BB16C /* NKDModifiedPlesseyBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDModifiedPlesseyBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDModifiedPlesseyBarcode.h; sourceTree = "<group>"; };
+		E33F9CF31A84B800008BB16C /* NKDModifiedPlesseyBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDModifiedPlesseyBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDModifiedPlesseyBarcode.m; sourceTree = "<group>"; };
+		E33F9CF41A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDModifiedPlesseyHexBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDModifiedPlesseyHexBarcode.h; sourceTree = "<group>"; };
+		E33F9CF51A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDModifiedPlesseyHexBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDModifiedPlesseyHexBarcode.m; sourceTree = "<group>"; };
+		E33F9CF61A84B800008BB16C /* NKDPlanetBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDPlanetBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDPlanetBarcode.h; sourceTree = "<group>"; };
+		E33F9CF71A84B800008BB16C /* NKDPlanetBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDPlanetBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDPlanetBarcode.m; sourceTree = "<group>"; };
+		E33F9CF81A84B800008BB16C /* NKDPostnetBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDPostnetBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDPostnetBarcode.h; sourceTree = "<group>"; };
+		E33F9CF91A84B800008BB16C /* NKDPostnetBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDPostnetBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDPostnetBarcode.m; sourceTree = "<group>"; };
+		E33F9CFA1A84B800008BB16C /* NKDRoyalMailBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDRoyalMailBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDRoyalMailBarcode.h; sourceTree = "<group>"; };
+		E33F9CFB1A84B800008BB16C /* NKDRoyalMailBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDRoyalMailBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDRoyalMailBarcode.m; sourceTree = "<group>"; };
+		E33F9CFC1A84B800008BB16C /* NKDUPCABarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDUPCABarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDUPCABarcode.h; sourceTree = "<group>"; };
+		E33F9CFD1A84B800008BB16C /* NKDUPCABarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDUPCABarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDUPCABarcode.m; sourceTree = "<group>"; };
+		E33F9CFE1A84B800008BB16C /* NKDUPCEBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDUPCEBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDUPCEBarcode.h; sourceTree = "<group>"; };
+		E33F9CFF1A84B800008BB16C /* NKDUPCEBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDUPCEBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDUPCEBarcode.m; sourceTree = "<group>"; };
+		E33F9D001A84B800008BB16C /* NSString-UPCEAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString-UPCEAN.h"; path = "../../Documents/iphone_program/UnknownPrototype/NSString-UPCEAN.h"; sourceTree = "<group>"; };
+		E33F9D011A84B800008BB16C /* NSString-UPCEAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString-UPCEAN.m"; path = "../../Documents/iphone_program/UnknownPrototype/NSString-UPCEAN.m"; sourceTree = "<group>"; };
+		E33F9D021A84B800008BB16C /* UIImage-NKDBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage-NKDBarcode.h"; path = "../../Documents/iphone_program/UnknownPrototype/UIImage-NKDBarcode.h"; sourceTree = "<group>"; };
+		E33F9D031A84B800008BB16C /* UIImage-NKDBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage-NKDBarcode.m"; path = "../../Documents/iphone_program/UnknownPrototype/UIImage-NKDBarcode.m"; sourceTree = "<group>"; };
+		E33F9D041A84B800008BB16C /* UIImage-Normalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage-Normalize.h"; path = "../../Documents/iphone_program/UnknownPrototype/UIImage-Normalize.h"; sourceTree = "<group>"; };
+		E33F9D051A84B800008BB16C /* UIImage-Normalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage-Normalize.m"; path = "../../Documents/iphone_program/UnknownPrototype/UIImage-Normalize.m"; sourceTree = "<group>"; };
+		E3C4F0F61A3FCFDF00B1F996 /* Scan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Scan.swift; path = ../Scan.swift; sourceTree = "<group>"; };
+		E3DF50D61A49503200132C9E /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3224AA81A1C142A00669694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E311C15E1A42682B004F1CBA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3224AC01A1C142A00669694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3224AA21A1C142A00669694 = {
+			isa = PBXGroup;
+			children = (
+				E33F9D1C1A84B80B008BB16C /* Helper */,
+				E311C15D1A42682B004F1CBA /* AVFoundation.framework */,
+				E3224AAD1A1C142A00669694 /* SwiftPrototype */,
+				E3224AC61A1C142A00669694 /* SwiftPrototypeTests */,
+				E3224AAC1A1C142A00669694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3224AAC1A1C142A00669694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3224AAB1A1C142A00669694 /* SwiftPrototype.app */,
+				E3224AC31A1C142A00669694 /* SwiftPrototypeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3224AAD1A1C142A00669694 /* SwiftPrototype */ = {
+			isa = PBXGroup;
+			children = (
+				E33F9CD51A84B68A008BB16C /* Card.swift */,
+				E3DF50D61A49503200132C9E /* Main.swift */,
+				E3C4F0F61A3FCFDF00B1F996 /* Scan.swift */,
+				E3224AB01A1C142A00669694 /* AppDelegate.swift */,
+				E3224AB71A1C142A00669694 /* Main.storyboard */,
+				E3224ABA1A1C142A00669694 /* Images.xcassets */,
+				E3224ABC1A1C142A00669694 /* LaunchScreen.xib */,
+				E3224AB21A1C142A00669694 /* SwiftPrototype.xcdatamodeld */,
+				E3224AAE1A1C142A00669694 /* Supporting Files */,
+			);
+			path = SwiftPrototype;
+			sourceTree = "<group>";
+		};
+		E3224AAE1A1C142A00669694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3224AAF1A1C142A00669694 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3224AC61A1C142A00669694 /* SwiftPrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3224AC91A1C142A00669694 /* SwiftPrototypeTests.swift */,
+				E3224AC71A1C142A00669694 /* Supporting Files */,
+			);
+			path = SwiftPrototypeTests;
+			sourceTree = "<group>";
+		};
+		E3224AC71A1C142A00669694 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3224AC81A1C142A00669694 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E33F9D1C1A84B80B008BB16C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E33F9CD81A84B800008BB16C /* CocoaTouchBarcodes_Prefix.pch */,
+				E33F9CD91A84B800008BB16C /* JapanPostBarcode.h */,
+				E33F9CDA1A84B800008BB16C /* JapanPostBarcode.m */,
+				E33F9CDB1A84B800008BB16C /* NKDAbstractUPCEANBarcode.h */,
+				E33F9CDC1A84B800008BB16C /* NKDAbstractUPCEANBarcode.m */,
+				E33F9CDD1A84B800008BB16C /* NKDBarcode.h */,
+				E33F9CDE1A84B800008BB16C /* NKDBarcode.m */,
+				E33F9CDF1A84B800008BB16C /* NKDBarcodeFramework.h */,
+				E33F9CE01A84B800008BB16C /* NKDBarcodeOffscreenView.h */,
+				E33F9CE11A84B800008BB16C /* NKDBarcodeOffscreenView.m */,
+				E33F9CE21A84B800008BB16C /* NKDCodabarBarcode.h */,
+				E33F9CE31A84B800008BB16C /* NKDCodabarBarcode.m */,
+				E33F9CE41A84B800008BB16C /* NKDCode39Barcode.h */,
+				E33F9CE51A84B800008BB16C /* NKDCode39Barcode.m */,
+				E33F9CE61A84B800008BB16C /* NKDCode128Barcode.h */,
+				E33F9CE71A84B800008BB16C /* NKDCode128Barcode.m */,
+				E33F9CE81A84B800008BB16C /* NKDEAN8Barcode.h */,
+				E33F9CE91A84B800008BB16C /* NKDEAN8Barcode.m */,
+				E33F9CEA1A84B800008BB16C /* NKDEAN13Barcode.h */,
+				E33F9CEB1A84B800008BB16C /* NKDEAN13Barcode.m */,
+				E33F9CEC1A84B800008BB16C /* NKDExtendedCode39Barcode.h */,
+				E33F9CED1A84B800008BB16C /* NKDExtendedCode39Barcode.m */,
+				E33F9CEE1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.h */,
+				E33F9CEF1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m */,
+				E33F9CF01A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.h */,
+				E33F9CF11A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m */,
+				E33F9CF21A84B800008BB16C /* NKDModifiedPlesseyBarcode.h */,
+				E33F9CF31A84B800008BB16C /* NKDModifiedPlesseyBarcode.m */,
+				E33F9CF41A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.h */,
+				E33F9CF51A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m */,
+				E33F9CF61A84B800008BB16C /* NKDPlanetBarcode.h */,
+				E33F9CF71A84B800008BB16C /* NKDPlanetBarcode.m */,
+				E33F9CF81A84B800008BB16C /* NKDPostnetBarcode.h */,
+				E33F9CF91A84B800008BB16C /* NKDPostnetBarcode.m */,
+				E33F9CFA1A84B800008BB16C /* NKDRoyalMailBarcode.h */,
+				E33F9CFB1A84B800008BB16C /* NKDRoyalMailBarcode.m */,
+				E33F9CFC1A84B800008BB16C /* NKDUPCABarcode.h */,
+				E33F9CFD1A84B800008BB16C /* NKDUPCABarcode.m */,
+				E33F9CFE1A84B800008BB16C /* NKDUPCEBarcode.h */,
+				E33F9CFF1A84B800008BB16C /* NKDUPCEBarcode.m */,
+				E33F9D001A84B800008BB16C /* NSString-UPCEAN.h */,
+				E33F9D011A84B800008BB16C /* NSString-UPCEAN.m */,
+				E33F9D021A84B800008BB16C /* UIImage-NKDBarcode.h */,
+				E33F9D031A84B800008BB16C /* UIImage-NKDBarcode.m */,
+				E33F9D041A84B800008BB16C /* UIImage-Normalize.h */,
+				E33F9D051A84B800008BB16C /* UIImage-Normalize.m */,
+				E33F9CD71A84B7FF008BB16C /* SwiftPrototype-Bridging-Header.h */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3224AAA1A1C142A00669694 /* SwiftPrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3224ACD1A1C142A00669694 /* Build configuration list for PBXNativeTarget "SwiftPrototype" */;
+			buildPhases = (
+				E3224AA71A1C142A00669694 /* Sources */,
+				E3224AA81A1C142A00669694 /* Frameworks */,
+				E3224AA91A1C142A00669694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPrototype;
+			productName = SwiftPrototype;
+			productReference = E3224AAB1A1C142A00669694 /* SwiftPrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3224AC21A1C142A00669694 /* SwiftPrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3224AD01A1C142A00669694 /* Build configuration list for PBXNativeTarget "SwiftPrototypeTests" */;
+			buildPhases = (
+				E3224ABF1A1C142A00669694 /* Sources */,
+				E3224AC01A1C142A00669694 /* Frameworks */,
+				E3224AC11A1C142A00669694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3224AC51A1C142A00669694 /* PBXTargetDependency */,
+			);
+			name = SwiftPrototypeTests;
+			productName = SwiftPrototypeTests;
+			productReference = E3224AC31A1C142A00669694 /* SwiftPrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3224AA31A1C142A00669694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hieu Tran";
+				TargetAttributes = {
+					E3224AAA1A1C142A00669694 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = YB8A22XWU8;
+					};
+					E3224AC21A1C142A00669694 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E3224AAA1A1C142A00669694;
+					};
+				};
+			};
+			buildConfigurationList = E3224AA61A1C142A00669694 /* Build configuration list for PBXProject "SwiftPrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3224AA21A1C142A00669694;
+			productRefGroup = E3224AAC1A1C142A00669694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3224AAA1A1C142A00669694 /* SwiftPrototype */,
+				E3224AC21A1C142A00669694 /* SwiftPrototypeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3224AA91A1C142A00669694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3224AB91A1C142A00669694 /* Main.storyboard in Resources */,
+				E3224ABE1A1C142A00669694 /* LaunchScreen.xib in Resources */,
+				E3224ABB1A1C142A00669694 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3224AC11A1C142A00669694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3224AA71A1C142A00669694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3224AB41A1C142A00669694 /* SwiftPrototype.xcdatamodeld in Sources */,
+				E33F9D0C1A84B800008BB16C /* NKDCode128Barcode.m in Sources */,
+				E3224AB11A1C142A00669694 /* AppDelegate.swift in Sources */,
+				E33F9D131A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m in Sources */,
+				E33F9D0D1A84B800008BB16C /* NKDEAN8Barcode.m in Sources */,
+				E33F9D191A84B800008BB16C /* NSString-UPCEAN.m in Sources */,
+				E33F9D171A84B800008BB16C /* NKDUPCABarcode.m in Sources */,
+				E33F9D091A84B800008BB16C /* NKDBarcodeOffscreenView.m in Sources */,
+				E33F9CD61A84B68A008BB16C /* Card.swift in Sources */,
+				E33F9D1B1A84B800008BB16C /* UIImage-Normalize.m in Sources */,
+				E33F9D161A84B800008BB16C /* NKDRoyalMailBarcode.m in Sources */,
+				E33F9D061A84B800008BB16C /* JapanPostBarcode.m in Sources */,
+				E33F9D081A84B800008BB16C /* NKDBarcode.m in Sources */,
+				E3DF50D71A49503200132C9E /* Main.swift in Sources */,
+				E33F9D141A84B800008BB16C /* NKDPlanetBarcode.m in Sources */,
+				E33F9D151A84B800008BB16C /* NKDPostnetBarcode.m in Sources */,
+				E33F9D0E1A84B800008BB16C /* NKDEAN13Barcode.m in Sources */,
+				E33F9D1A1A84B800008BB16C /* UIImage-NKDBarcode.m in Sources */,
+				E3C4F0F71A3FCFDF00B1F996 /* Scan.swift in Sources */,
+				E33F9D0B1A84B800008BB16C /* NKDCode39Barcode.m in Sources */,
+				E33F9D111A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m in Sources */,
+				E33F9D0F1A84B800008BB16C /* NKDExtendedCode39Barcode.m in Sources */,
+				E33F9D071A84B800008BB16C /* NKDAbstractUPCEANBarcode.m in Sources */,
+				E33F9D121A84B800008BB16C /* NKDModifiedPlesseyBarcode.m in Sources */,
+				E33F9D181A84B800008BB16C /* NKDUPCEBarcode.m in Sources */,
+				E33F9D0A1A84B800008BB16C /* NKDCodabarBarcode.m in Sources */,
+				E33F9D101A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3224ABF1A1C142A00669694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3224ACA1A1C142A00669694 /* SwiftPrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3224AC51A1C142A00669694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3224AAA1A1C142A00669694 /* SwiftPrototype */;
+			targetProxy = E3224AC41A1C142A00669694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3224AB71A1C142A00669694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3224AB81A1C142A00669694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3224ABC1A1C142A00669694 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3224ABD1A1C142A00669694 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3224ACB1A1C142A00669694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3224ACC1A1C142A00669694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3224ACE1A1C142A00669694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SwiftPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPrototype-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3224ACF1A1C142A00669694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SwiftPrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPrototype-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		E3224AD11A1C142A00669694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPrototype.app/SwiftPrototype";
+			};
+			name = Debug;
+		};
+		E3224AD21A1C142A00669694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftPrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPrototype.app/SwiftPrototype";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3224AA61A1C142A00669694 /* Build configuration list for PBXProject "SwiftPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3224ACB1A1C142A00669694 /* Debug */,
+				E3224ACC1A1C142A00669694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3224ACD1A1C142A00669694 /* Build configuration list for PBXNativeTarget "SwiftPrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3224ACE1A1C142A00669694 /* Debug */,
+				E3224ACF1A1C142A00669694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3224AD01A1C142A00669694 /* Build configuration list for PBXNativeTarget "SwiftPrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3224AD11A1C142A00669694 /* Debug */,
+				E3224AD21A1C142A00669694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3224AB21A1C142A00669694 /* SwiftPrototype.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3224AB31A1C142A00669694 /* SwiftPrototype.xcdatamodel */,
+			);
+			currentVersion = E3224AB31A1C142A00669694 /* SwiftPrototype.xcdatamodel */;
+			path = SwiftPrototype.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3224AA31A1C142A00669694 /* Project object */;
+}

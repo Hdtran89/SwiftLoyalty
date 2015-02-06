@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Card-->
+        <scene sceneID="FUC-Lh-OeE">
+            <objects>
+                <viewController id="XY1-oU-jZW" customClass="Card" customModule="SwiftPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rlb-Ac-SHL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Inl-m0-k6m"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BQa-Ji-Z6K">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XNq-3C-Cws">
+                                <rect key="frame" x="80" y="28" width="441" height="301"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K20-Qo-fRH">
+                                <rect key="frame" x="80" y="337" width="441" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Card" id="NEj-iA-Kjf"/>
+                    <connections>
+                        <outlet property="bImage" destination="XNq-3C-Cws" id="ss3-ts-r6E"/>
+                        <outlet property="bString" destination="K20-Qo-fRH" id="Aro-ck-QyH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GIX-nw-RAK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="763"/>
+        </scene>
+        <!--Scan-->
+        <scene sceneID="ltW-X4-gJv">
+            <objects>
+                <viewController id="kpp-Ri-Fao" customClass="Scan" customModule="SwiftPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fHm-13-Zdo"/>
+                        <viewControllerLayoutGuide type="bottom" id="SrT-vX-dxk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AaY-Uw-JYP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scan" id="s1d-Tn-Ha9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Igo-kr-Srd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="884" y="100"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="RzD-Mm-34p">
+            <objects>
+                <tabBarController id="rjo-Tr-Gm9" customClass="Main" customModule="SwiftPrototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="d1N-s6-T6f">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kpp-Ri-Fao" kind="relationship" relationship="viewControllers" id="vse-td-CRL"/>
+                        <segue destination="XY1-oU-jZW" kind="relationship" relationship="viewControllers" id="xlP-Km-qH9"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HBD-g4-FXs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64" y="430"/>
+        </scene>
+    </scenes>
+</document>
