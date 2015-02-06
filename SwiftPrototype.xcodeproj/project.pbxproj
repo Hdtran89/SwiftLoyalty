@@ -15,28 +15,6 @@
 		E3224ABE1A1C142A00669694 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3224ABC1A1C142A00669694 /* LaunchScreen.xib */; };
 		E3224ACA1A1C142A00669694 /* SwiftPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3224AC91A1C142A00669694 /* SwiftPrototypeTests.swift */; };
 		E33F9CD61A84B68A008BB16C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CD51A84B68A008BB16C /* Card.swift */; };
-		E33F9D061A84B800008BB16C /* JapanPostBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CDA1A84B800008BB16C /* JapanPostBarcode.m */; };
-		E33F9D071A84B800008BB16C /* NKDAbstractUPCEANBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CDC1A84B800008BB16C /* NKDAbstractUPCEANBarcode.m */; };
-		E33F9D081A84B800008BB16C /* NKDBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CDE1A84B800008BB16C /* NKDBarcode.m */; };
-		E33F9D091A84B800008BB16C /* NKDBarcodeOffscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE11A84B800008BB16C /* NKDBarcodeOffscreenView.m */; };
-		E33F9D0A1A84B800008BB16C /* NKDCodabarBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE31A84B800008BB16C /* NKDCodabarBarcode.m */; };
-		E33F9D0B1A84B800008BB16C /* NKDCode39Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE51A84B800008BB16C /* NKDCode39Barcode.m */; };
-		E33F9D0C1A84B800008BB16C /* NKDCode128Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE71A84B800008BB16C /* NKDCode128Barcode.m */; };
-		E33F9D0D1A84B800008BB16C /* NKDEAN8Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CE91A84B800008BB16C /* NKDEAN8Barcode.m */; };
-		E33F9D0E1A84B800008BB16C /* NKDEAN13Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CEB1A84B800008BB16C /* NKDEAN13Barcode.m */; };
-		E33F9D0F1A84B800008BB16C /* NKDExtendedCode39Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CED1A84B800008BB16C /* NKDExtendedCode39Barcode.m */; };
-		E33F9D101A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CEF1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m */; };
-		E33F9D111A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF11A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m */; };
-		E33F9D121A84B800008BB16C /* NKDModifiedPlesseyBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF31A84B800008BB16C /* NKDModifiedPlesseyBarcode.m */; };
-		E33F9D131A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF51A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m */; };
-		E33F9D141A84B800008BB16C /* NKDPlanetBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF71A84B800008BB16C /* NKDPlanetBarcode.m */; };
-		E33F9D151A84B800008BB16C /* NKDPostnetBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CF91A84B800008BB16C /* NKDPostnetBarcode.m */; };
-		E33F9D161A84B800008BB16C /* NKDRoyalMailBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CFB1A84B800008BB16C /* NKDRoyalMailBarcode.m */; };
-		E33F9D171A84B800008BB16C /* NKDUPCABarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CFD1A84B800008BB16C /* NKDUPCABarcode.m */; };
-		E33F9D181A84B800008BB16C /* NKDUPCEBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9CFF1A84B800008BB16C /* NKDUPCEBarcode.m */; };
-		E33F9D191A84B800008BB16C /* NSString-UPCEAN.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9D011A84B800008BB16C /* NSString-UPCEAN.m */; };
-		E33F9D1A1A84B800008BB16C /* UIImage-NKDBarcode.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9D031A84B800008BB16C /* UIImage-NKDBarcode.m */; };
-		E33F9D1B1A84B800008BB16C /* UIImage-Normalize.m in Sources */ = {isa = PBXBuildFile; fileRef = E33F9D051A84B800008BB16C /* UIImage-Normalize.m */; };
 		E3C4F0F71A3FCFDF00B1F996 /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C4F0F61A3FCFDF00B1F996 /* Scan.swift */; };
 		E3DF50D71A49503200132C9E /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DF50D61A49503200132C9E /* Main.swift */; };
 /* End PBXBuildFile section */
@@ -64,53 +42,6 @@
 		E3224AC81A1C142A00669694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3224AC91A1C142A00669694 /* SwiftPrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPrototypeTests.swift; sourceTree = "<group>"; };
 		E33F9CD51A84B68A008BB16C /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		E33F9CD71A84B7FF008BB16C /* SwiftPrototype-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPrototype-Bridging-Header.h"; sourceTree = "<group>"; };
-		E33F9CD81A84B800008BB16C /* CocoaTouchBarcodes_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaTouchBarcodes_Prefix.pch; path = ../../Documents/iphone_program/UnknownPrototype/CocoaTouchBarcodes_Prefix.pch; sourceTree = "<group>"; };
-		E33F9CD91A84B800008BB16C /* JapanPostBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JapanPostBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/JapanPostBarcode.h; sourceTree = "<group>"; };
-		E33F9CDA1A84B800008BB16C /* JapanPostBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JapanPostBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/JapanPostBarcode.m; sourceTree = "<group>"; };
-		E33F9CDB1A84B800008BB16C /* NKDAbstractUPCEANBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDAbstractUPCEANBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDAbstractUPCEANBarcode.h; sourceTree = "<group>"; };
-		E33F9CDC1A84B800008BB16C /* NKDAbstractUPCEANBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDAbstractUPCEANBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDAbstractUPCEANBarcode.m; sourceTree = "<group>"; };
-		E33F9CDD1A84B800008BB16C /* NKDBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcode.h; sourceTree = "<group>"; };
-		E33F9CDE1A84B800008BB16C /* NKDBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcode.m; sourceTree = "<group>"; };
-		E33F9CDF1A84B800008BB16C /* NKDBarcodeFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDBarcodeFramework.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcodeFramework.h; sourceTree = "<group>"; };
-		E33F9CE01A84B800008BB16C /* NKDBarcodeOffscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDBarcodeOffscreenView.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcodeOffscreenView.h; sourceTree = "<group>"; };
-		E33F9CE11A84B800008BB16C /* NKDBarcodeOffscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDBarcodeOffscreenView.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDBarcodeOffscreenView.m; sourceTree = "<group>"; };
-		E33F9CE21A84B800008BB16C /* NKDCodabarBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDCodabarBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDCodabarBarcode.h; sourceTree = "<group>"; };
-		E33F9CE31A84B800008BB16C /* NKDCodabarBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDCodabarBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDCodabarBarcode.m; sourceTree = "<group>"; };
-		E33F9CE41A84B800008BB16C /* NKDCode39Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDCode39Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDCode39Barcode.h; sourceTree = "<group>"; };
-		E33F9CE51A84B800008BB16C /* NKDCode39Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDCode39Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDCode39Barcode.m; sourceTree = "<group>"; };
-		E33F9CE61A84B800008BB16C /* NKDCode128Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDCode128Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDCode128Barcode.h; sourceTree = "<group>"; };
-		E33F9CE71A84B800008BB16C /* NKDCode128Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDCode128Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDCode128Barcode.m; sourceTree = "<group>"; };
-		E33F9CE81A84B800008BB16C /* NKDEAN8Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDEAN8Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDEAN8Barcode.h; sourceTree = "<group>"; };
-		E33F9CE91A84B800008BB16C /* NKDEAN8Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDEAN8Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDEAN8Barcode.m; sourceTree = "<group>"; };
-		E33F9CEA1A84B800008BB16C /* NKDEAN13Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDEAN13Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDEAN13Barcode.h; sourceTree = "<group>"; };
-		E33F9CEB1A84B800008BB16C /* NKDEAN13Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDEAN13Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDEAN13Barcode.m; sourceTree = "<group>"; };
-		E33F9CEC1A84B800008BB16C /* NKDExtendedCode39Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDExtendedCode39Barcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDExtendedCode39Barcode.h; sourceTree = "<group>"; };
-		E33F9CED1A84B800008BB16C /* NKDExtendedCode39Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDExtendedCode39Barcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDExtendedCode39Barcode.m; sourceTree = "<group>"; };
-		E33F9CEE1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDIndustrialTwoOfFiveBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDIndustrialTwoOfFiveBarcode.h; sourceTree = "<group>"; };
-		E33F9CEF1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDIndustrialTwoOfFiveBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDIndustrialTwoOfFiveBarcode.m; sourceTree = "<group>"; };
-		E33F9CF01A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDInterleavedTwoOfFiveBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDInterleavedTwoOfFiveBarcode.h; sourceTree = "<group>"; };
-		E33F9CF11A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDInterleavedTwoOfFiveBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDInterleavedTwoOfFiveBarcode.m; sourceTree = "<group>"; };
-		E33F9CF21A84B800008BB16C /* NKDModifiedPlesseyBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDModifiedPlesseyBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDModifiedPlesseyBarcode.h; sourceTree = "<group>"; };
-		E33F9CF31A84B800008BB16C /* NKDModifiedPlesseyBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDModifiedPlesseyBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDModifiedPlesseyBarcode.m; sourceTree = "<group>"; };
-		E33F9CF41A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDModifiedPlesseyHexBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDModifiedPlesseyHexBarcode.h; sourceTree = "<group>"; };
-		E33F9CF51A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDModifiedPlesseyHexBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDModifiedPlesseyHexBarcode.m; sourceTree = "<group>"; };
-		E33F9CF61A84B800008BB16C /* NKDPlanetBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDPlanetBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDPlanetBarcode.h; sourceTree = "<group>"; };
-		E33F9CF71A84B800008BB16C /* NKDPlanetBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDPlanetBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDPlanetBarcode.m; sourceTree = "<group>"; };
-		E33F9CF81A84B800008BB16C /* NKDPostnetBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDPostnetBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDPostnetBarcode.h; sourceTree = "<group>"; };
-		E33F9CF91A84B800008BB16C /* NKDPostnetBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDPostnetBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDPostnetBarcode.m; sourceTree = "<group>"; };
-		E33F9CFA1A84B800008BB16C /* NKDRoyalMailBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDRoyalMailBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDRoyalMailBarcode.h; sourceTree = "<group>"; };
-		E33F9CFB1A84B800008BB16C /* NKDRoyalMailBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDRoyalMailBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDRoyalMailBarcode.m; sourceTree = "<group>"; };
-		E33F9CFC1A84B800008BB16C /* NKDUPCABarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDUPCABarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDUPCABarcode.h; sourceTree = "<group>"; };
-		E33F9CFD1A84B800008BB16C /* NKDUPCABarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDUPCABarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDUPCABarcode.m; sourceTree = "<group>"; };
-		E33F9CFE1A84B800008BB16C /* NKDUPCEBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NKDUPCEBarcode.h; path = ../../Documents/iphone_program/UnknownPrototype/NKDUPCEBarcode.h; sourceTree = "<group>"; };
-		E33F9CFF1A84B800008BB16C /* NKDUPCEBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NKDUPCEBarcode.m; path = ../../Documents/iphone_program/UnknownPrototype/NKDUPCEBarcode.m; sourceTree = "<group>"; };
-		E33F9D001A84B800008BB16C /* NSString-UPCEAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString-UPCEAN.h"; path = "../../Documents/iphone_program/UnknownPrototype/NSString-UPCEAN.h"; sourceTree = "<group>"; };
-		E33F9D011A84B800008BB16C /* NSString-UPCEAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString-UPCEAN.m"; path = "../../Documents/iphone_program/UnknownPrototype/NSString-UPCEAN.m"; sourceTree = "<group>"; };
-		E33F9D021A84B800008BB16C /* UIImage-NKDBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage-NKDBarcode.h"; path = "../../Documents/iphone_program/UnknownPrototype/UIImage-NKDBarcode.h"; sourceTree = "<group>"; };
-		E33F9D031A84B800008BB16C /* UIImage-NKDBarcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage-NKDBarcode.m"; path = "../../Documents/iphone_program/UnknownPrototype/UIImage-NKDBarcode.m"; sourceTree = "<group>"; };
-		E33F9D041A84B800008BB16C /* UIImage-Normalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage-Normalize.h"; path = "../../Documents/iphone_program/UnknownPrototype/UIImage-Normalize.h"; sourceTree = "<group>"; };
-		E33F9D051A84B800008BB16C /* UIImage-Normalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage-Normalize.m"; path = "../../Documents/iphone_program/UnknownPrototype/UIImage-Normalize.m"; sourceTree = "<group>"; };
 		E3C4F0F61A3FCFDF00B1F996 /* Scan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Scan.swift; path = ../Scan.swift; sourceTree = "<group>"; };
 		E3DF50D61A49503200132C9E /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,7 +68,6 @@
 		E3224AA21A1C142A00669694 = {
 			isa = PBXGroup;
 			children = (
-				E33F9D1C1A84B80B008BB16C /* Helper */,
 				E311C15D1A42682B004F1CBA /* AVFoundation.framework */,
 				E3224AAD1A1C142A00669694 /* SwiftPrototype */,
 				E3224AC61A1C142A00669694 /* SwiftPrototypeTests */,
@@ -193,60 +123,6 @@
 				E3224AC81A1C142A00669694 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E33F9D1C1A84B80B008BB16C /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				E33F9CD81A84B800008BB16C /* CocoaTouchBarcodes_Prefix.pch */,
-				E33F9CD91A84B800008BB16C /* JapanPostBarcode.h */,
-				E33F9CDA1A84B800008BB16C /* JapanPostBarcode.m */,
-				E33F9CDB1A84B800008BB16C /* NKDAbstractUPCEANBarcode.h */,
-				E33F9CDC1A84B800008BB16C /* NKDAbstractUPCEANBarcode.m */,
-				E33F9CDD1A84B800008BB16C /* NKDBarcode.h */,
-				E33F9CDE1A84B800008BB16C /* NKDBarcode.m */,
-				E33F9CDF1A84B800008BB16C /* NKDBarcodeFramework.h */,
-				E33F9CE01A84B800008BB16C /* NKDBarcodeOffscreenView.h */,
-				E33F9CE11A84B800008BB16C /* NKDBarcodeOffscreenView.m */,
-				E33F9CE21A84B800008BB16C /* NKDCodabarBarcode.h */,
-				E33F9CE31A84B800008BB16C /* NKDCodabarBarcode.m */,
-				E33F9CE41A84B800008BB16C /* NKDCode39Barcode.h */,
-				E33F9CE51A84B800008BB16C /* NKDCode39Barcode.m */,
-				E33F9CE61A84B800008BB16C /* NKDCode128Barcode.h */,
-				E33F9CE71A84B800008BB16C /* NKDCode128Barcode.m */,
-				E33F9CE81A84B800008BB16C /* NKDEAN8Barcode.h */,
-				E33F9CE91A84B800008BB16C /* NKDEAN8Barcode.m */,
-				E33F9CEA1A84B800008BB16C /* NKDEAN13Barcode.h */,
-				E33F9CEB1A84B800008BB16C /* NKDEAN13Barcode.m */,
-				E33F9CEC1A84B800008BB16C /* NKDExtendedCode39Barcode.h */,
-				E33F9CED1A84B800008BB16C /* NKDExtendedCode39Barcode.m */,
-				E33F9CEE1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.h */,
-				E33F9CEF1A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m */,
-				E33F9CF01A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.h */,
-				E33F9CF11A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m */,
-				E33F9CF21A84B800008BB16C /* NKDModifiedPlesseyBarcode.h */,
-				E33F9CF31A84B800008BB16C /* NKDModifiedPlesseyBarcode.m */,
-				E33F9CF41A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.h */,
-				E33F9CF51A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m */,
-				E33F9CF61A84B800008BB16C /* NKDPlanetBarcode.h */,
-				E33F9CF71A84B800008BB16C /* NKDPlanetBarcode.m */,
-				E33F9CF81A84B800008BB16C /* NKDPostnetBarcode.h */,
-				E33F9CF91A84B800008BB16C /* NKDPostnetBarcode.m */,
-				E33F9CFA1A84B800008BB16C /* NKDRoyalMailBarcode.h */,
-				E33F9CFB1A84B800008BB16C /* NKDRoyalMailBarcode.m */,
-				E33F9CFC1A84B800008BB16C /* NKDUPCABarcode.h */,
-				E33F9CFD1A84B800008BB16C /* NKDUPCABarcode.m */,
-				E33F9CFE1A84B800008BB16C /* NKDUPCEBarcode.h */,
-				E33F9CFF1A84B800008BB16C /* NKDUPCEBarcode.m */,
-				E33F9D001A84B800008BB16C /* NSString-UPCEAN.h */,
-				E33F9D011A84B800008BB16C /* NSString-UPCEAN.m */,
-				E33F9D021A84B800008BB16C /* UIImage-NKDBarcode.h */,
-				E33F9D031A84B800008BB16C /* UIImage-NKDBarcode.m */,
-				E33F9D041A84B800008BB16C /* UIImage-Normalize.h */,
-				E33F9D051A84B800008BB16C /* UIImage-Normalize.m */,
-				E33F9CD71A84B7FF008BB16C /* SwiftPrototype-Bridging-Header.h */,
-			);
-			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -351,32 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3224AB41A1C142A00669694 /* SwiftPrototype.xcdatamodeld in Sources */,
-				E33F9D0C1A84B800008BB16C /* NKDCode128Barcode.m in Sources */,
 				E3224AB11A1C142A00669694 /* AppDelegate.swift in Sources */,
-				E33F9D131A84B800008BB16C /* NKDModifiedPlesseyHexBarcode.m in Sources */,
-				E33F9D0D1A84B800008BB16C /* NKDEAN8Barcode.m in Sources */,
-				E33F9D191A84B800008BB16C /* NSString-UPCEAN.m in Sources */,
-				E33F9D171A84B800008BB16C /* NKDUPCABarcode.m in Sources */,
-				E33F9D091A84B800008BB16C /* NKDBarcodeOffscreenView.m in Sources */,
 				E33F9CD61A84B68A008BB16C /* Card.swift in Sources */,
-				E33F9D1B1A84B800008BB16C /* UIImage-Normalize.m in Sources */,
-				E33F9D161A84B800008BB16C /* NKDRoyalMailBarcode.m in Sources */,
-				E33F9D061A84B800008BB16C /* JapanPostBarcode.m in Sources */,
-				E33F9D081A84B800008BB16C /* NKDBarcode.m in Sources */,
 				E3DF50D71A49503200132C9E /* Main.swift in Sources */,
-				E33F9D141A84B800008BB16C /* NKDPlanetBarcode.m in Sources */,
-				E33F9D151A84B800008BB16C /* NKDPostnetBarcode.m in Sources */,
-				E33F9D0E1A84B800008BB16C /* NKDEAN13Barcode.m in Sources */,
-				E33F9D1A1A84B800008BB16C /* UIImage-NKDBarcode.m in Sources */,
 				E3C4F0F71A3FCFDF00B1F996 /* Scan.swift in Sources */,
-				E33F9D0B1A84B800008BB16C /* NKDCode39Barcode.m in Sources */,
-				E33F9D111A84B800008BB16C /* NKDInterleavedTwoOfFiveBarcode.m in Sources */,
-				E33F9D0F1A84B800008BB16C /* NKDExtendedCode39Barcode.m in Sources */,
-				E33F9D071A84B800008BB16C /* NKDAbstractUPCEANBarcode.m in Sources */,
-				E33F9D121A84B800008BB16C /* NKDModifiedPlesseyBarcode.m in Sources */,
-				E33F9D181A84B800008BB16C /* NKDUPCEBarcode.m in Sources */,
-				E33F9D0A1A84B800008BB16C /* NKDCodabarBarcode.m in Sources */,
-				E33F9D101A84B800008BB16C /* NKDIndustrialTwoOfFiveBarcode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
