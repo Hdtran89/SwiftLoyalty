@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7E3CB6F9-4384-4E88-995B-3248C59CBE68</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SwiftPrototype</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9151DAC657627F03D9824729C4057C3CCA3D176F</key>
+		<string>github.com:Hdtran89/SwiftLoyalty.git</string>
+		<key>BA659EE2C76B76E7017A3475B8CDF6CD6AC53D32</key>
+		<string>github.com:netshade/Cocoa-Touch-Barcodes.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SwiftPrototype.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9151DAC657627F03D9824729C4057C3CCA3D176F</key>
+		<string>../..</string>
+		<key>BA659EE2C76B76E7017A3475B8CDF6CD6AC53D32</key>
+		<string>../..Cocoa-Touch-Barcodes/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Hdtran89/SwiftLoyalty.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9151DAC657627F03D9824729C4057C3CCA3D176F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BA659EE2C76B76E7017A3475B8CDF6CD6AC53D32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cocoa-Touch-Barcodes</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9151DAC657627F03D9824729C4057C3CCA3D176F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SwiftPrototype</string>
+		</dict>
+	</array>
+</dict>
+</plist>
